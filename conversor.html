@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vou chorar de raiva</title>
+    <link href="Css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <center>
+        <header>
+            <h1>ry's blog !</h1>
+        </header>
+        <h2>Conversor de Unidades</h2>
+        <div class= "caixas">
+        <label for="tipoConversao">Escolha uma conversão:</label>
+        <br>
+        <select id="tipoConversao">
+            <option value="metros">Metros para Quilômetros</option>
+            <br>
+            <option value="quilos">Quilos para Gramas</option>
+            <br>
+            <option value="celsius">Celsius para Fahrenheit</option>
+            <br>
+        </select>
+<br>
+        <label for="valor">Insira o valor:</label>
+        <br>
+        <input type="number" id="valor" placeholder="Digite o valor">
+<br>
+        <button onclick="converter()">Converter</button>
+<br>
+        <h3>Resultado: <span id="resultado"></span></h3>
+    </div>
+    </center>
+
+    <script src="Js/conversor.js"></script>
+</body>
+</html>

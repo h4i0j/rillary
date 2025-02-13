@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>jiji</title>
+    <link href="Css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>ry's blog !</h1>
+    </header>
+    <center>
+        <img src="imagens/caramelovidente.jpg">
+        <br>
+        <h2>Pergunte ao grande Caramelo </h2>
+        <p>Entregue sua vida nas mãos do supremo vidente Caramelo</p>
+        <form id="form">
+            <div class= "caixas">
+            <label for="pergunta1">
+                <input type="text" id="text" name="opcao1" required placeholder="Opção 1">
+            </label>
+            <br>
+            <span>x</span>
+            <br>
+            <label for="pergunta2">
+                <input type="text" id="text2" name="opcao2" required placeholder="Opção 2">
+            </label>
+            <br>
+            <button type="button" onclick="verificar()">Escolher</button>
+            </div>
+        </form>
+        <p id="resultado"></p>
+    </center>
+    <script src="Js/pergunta.js"></script>
+</body>
+
+</html>
